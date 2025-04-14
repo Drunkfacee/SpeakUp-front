@@ -1,0 +1,133 @@
+@import url(./reset.css);
+@import url('./Fonts.css');
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 0.5rem 1rem;
+}
+.HeaderWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.HeaderWrapperContent {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.HeaderMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.HeaderMenuItems {
+    color: #404040;
+}
+.HeaderWrapperButtons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-right: 2rem;
+    margin-left: auto;
+}
+.SignUp {
+    width: 16px;
+    height: 16px;
+    background-image: url('../Image/Signin.png');
+    background-position: center;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LanguageMenu {
+    background-color: white;
+    color: black;
+    font-family: "Poppins Regular";
+    font-size: 0.9rem;
+    border: 1px solid #ccc;
+    padding: 0.3rem 1rem;
+    cursor: pointer;
+    appearance: none;
+    background-image: url('../Image/ArrowDown.png');
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: right 0.5rem center;
+}
+body {
+    font-family: "Poppins Regular";
+    color: #407BFF;
+}
+.container {
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+.HeaderTitle {
+    font-family: "Poppins semibold";
+    font-size: 30px;
+    color: #2563EB;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.MainContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 0 2rem; 
+    background-color: #407BFF;
+    color: white;
+    box-sizing: border-box;
+}
+
+.TextSection {
+    max-width: 50%;
+}
+
+.TextSection h1 {
+    font-family: "Poppins Bold";
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+.TextSection p {
+    font-family: "Poppins Regular";
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.StartButton {
+    background-color: #FFC107;
+    color: black;
+    font-family: "Poppins Medium";
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ImageSection {
+    max-width: 50%;
+}
+
+.MainImage {
+    width: 100%;
+    height: auto;
+}
