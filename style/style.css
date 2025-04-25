@@ -1,0 +1,115 @@
+@import url(Fonts.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    font-family: "Poppins Regular";
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header
+{
+    display: flex;
+    width: 100%;
+    height: 111px;
+    align-items: center;
+    border-bottom: 1px solid black;
+
+}
+
+.headerwrapper{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffffff;
+    align-items: center;
+    padding: 0 216px 0 216px;
+    width: 100%;
+    height: 100%;   
+
+}
+
+.left_section
+{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.left_section h1{
+    color: #2563EB;
+    font-family: "Poppins semibold";
+}
+
+.header_items
+{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header_items span
+{
+    font-family: "Poppins Bold";
+}
+
+.header_items ul
+{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 40px;
+}
+
+.right_section
+{
+    display: flex;
+    gap: 16px;
+
+}
+.language_selector
+{
+    display: flex;
+    outline: none;
+    border: 0;
+}
+
+
+.signin_button{
+    background-image: url(../Image/Signin.png);
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+li span{
+    color: #2563EB;
+}
+
+.offer{
+    display: flex;
+    width: 100%;
+    height: 42px;
+    background-color: #0B1E46;
+    align-items: center;
+    justify-content: center;
+}
+.offer p{
+    color: #EBAD25;
+    font-size: 14px;
+    font-family: "Poppins semibold";
+}
