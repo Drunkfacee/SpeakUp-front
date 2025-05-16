@@ -72,9 +72,12 @@ body{
 {
     display: flex;
     padding: 0;
-    margin: 0;
     list-style: none;
     gap: 40px;
+}
+
+.header_items li{
+    cursor: pointer;
 }
 
 .right_section
@@ -440,9 +443,111 @@ li span{
     background-color: #2563EB;
     color: white;
     font-family: "poppins regular";
+    cursor: pointer;
 }
 
 .Score_image{
     width: 40px;
     height: 40px;
+}
+
+.cards_section_button{
+    display: flex;
+    width: 392px;
+    height: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: none;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid var(--blue);
+    color: var(--blue);
+    background-color: white;
+    padding: 0px;
+    font-size: 16px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.cards_section_button > img{
+    height: 22px;
+    width: 22px;
+
+
+}
+
+.footer{
+    display: flex;
+    margin-top: 96px;
+    background-image: linear-gradient(to bottom ,#2563EB, #123276);
+    width: 100%;
+    flex-direction: column;
+    height: 264px;
+}
+
+.footer p,h3,a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer_top{
+    width: 100%;
+    min-height: 191px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_top_container{
+    display: flex;
+    width: 1224px;
+    margin-top: 17px;
+    justify-content: space-between;
+    align-items: center;
+    height: 128px;
+}
+
+.footer_top_container > div {
+    display: flex;
+    flex-direction:column;
+}
+
+
+.footer_top_container p h3{
+    font-size: 16px;
+}
+
+.footer_top_container h3 {
+    font-family: "Poppins bold";
+    margin-bottom: 8px;
+}
+
+.footer_contnt_left{
+    max-width: 250px;
+}
+
+.footer_buttom{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid white;
+}
+.footer_buttom_container{
+    display: flex;
+    width: 1224px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.footer_contnt_right h3{
+    margin-bottom: 16px;
+}
+
+.footer_bottom_right{
+    display: flex;
+    gap: 50px;
 }
